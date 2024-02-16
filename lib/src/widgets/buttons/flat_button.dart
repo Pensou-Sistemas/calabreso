@@ -45,11 +45,11 @@ class DSWButtonFlat extends StatelessWidget {
         foregroundColor: Theme.of(context).colorScheme.onPrimary,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -69,11 +69,11 @@ class _SecondaryDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: Theme.of(context).colorScheme.onSecondary,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -93,11 +93,11 @@ class _InfoDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: DSColors.onInfo,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -117,11 +117,11 @@ class _ErrorDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: DSColors.onError,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -141,11 +141,11 @@ class _SuccessDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: DSColors.onSuccess,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -165,11 +165,11 @@ class _WarningDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: DSColors.onWarning,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,

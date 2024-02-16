@@ -50,25 +50,25 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
         onCheckboxChanged(!_value);
       },
       child: Padding(
-        padding: const EdgeInsets.only(right: DSSize.width04),
+        padding: const EdgeInsets.only(right: DSSize.w04),
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
             AnimatedContainer(
               duration: const Duration(milliseconds: 200),
-              padding: const EdgeInsets.all(DSSize.width02),
+              padding: const EdgeInsets.all(DSSize.w02),
               decoration: BoxDecoration(
                 color: _value ? Theme.of(context).colorScheme.primary : Colors.transparent,
                 border: Border.all(color: _value ? Colors.transparent : Theme.of(context).colorScheme.outline),
-                borderRadius: const BorderRadius.all(Radius.circular(DSSize.radius03)),
+                borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
               ),
               child: const Icon(
                 DSIcons.check,
                 color: Colors.white,
-                size: DSSize.width06,
+                size: DSSize.w06,
               ),
             ),
-            const SizedBox(width: DSSize.width04),
+            const SizedBox(width: DSSize.w04),
             Text(
               widget.text,
               style: DSTypography.textBody1,

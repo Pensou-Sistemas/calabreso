@@ -1,3 +1,4 @@
+import 'package:calabreso/calabreso.dart';
 import 'package:flutter/material.dart';
 
 class DSWAvatarCircle extends StatelessWidget {
@@ -14,8 +15,8 @@ class DSWAvatarCircle extends StatelessWidget {
         color: Theme.of(context).colorScheme.primary,
         shape: BoxShape.circle,
       ),
-      width: kMinInteractiveDimension,
-      height: kMinInteractiveDimension,
+      width: DSSize.sMinInteractiveDimension,
+      height: DSSize.sMinInteractiveDimension,
       child: IconTheme(
         data: IconThemeData(
           color: Theme.of(context).colorScheme.onPrimary,
@@ -36,8 +37,8 @@ class _AvatarCircleTonal extends DSWAvatarCircle {
         color: Theme.of(context).colorScheme.primary.withOpacity(0.15),
         shape: BoxShape.circle,
       ),
-      width: kMinInteractiveDimension,
-      height: kMinInteractiveDimension,
+      width: DSSize.sMinInteractiveDimension,
+      height: DSSize.sMinInteractiveDimension,
       child: IconTheme(
         data: IconThemeData(
           color: Theme.of(context).colorScheme.primary,

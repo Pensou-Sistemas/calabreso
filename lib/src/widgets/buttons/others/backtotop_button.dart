@@ -44,9 +44,9 @@ class _DSWBackToTopButtonState extends State<DSWBackToTopButton> {
             curve: Curves.easeInOut,
           );
         },
-        child: Icon(Icons.arrow_upward),
         backgroundColor: Theme.of(context).colorScheme.primary.withOpacity(0.8),
         foregroundColor: Theme.of(context).colorScheme.onPrimary,
+        child: const Icon(Icons.arrow_upward),
       ),
     );
   }

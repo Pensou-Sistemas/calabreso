@@ -17,7 +17,7 @@ class DSWCard extends StatelessWidget {
       clipBehavior: Clip.antiAlias,
       color: Theme.of(context).colorScheme.surface,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(DSSize.radius04),
+        borderRadius: BorderRadius.circular(DSSize.r04),
         side: BorderSide(
           color: Theme.of(context).colorScheme.onSurface.withOpacity(0.15),
         ),
@@ -26,7 +26,7 @@ class DSWCard extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(DSSize.width12),
+          padding: const EdgeInsets.all(DSSize.w12),
           child: child,
         ),
       ),

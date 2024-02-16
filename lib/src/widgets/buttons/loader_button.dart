@@ -8,6 +8,7 @@ enum LoaderButtonState {
   error,
 }
 
+//TODO melhorar esse botão
 class DSWLoaderButton extends StatefulWidget {
   const DSWLoaderButton({
     super.key,
@@ -79,7 +80,7 @@ class _DSWLoaderButtonState extends State<DSWLoaderButton> {
         );
       case LoaderButtonState.loading:
         return const SizedBox(
-          width: kMinInteractiveDimension * 0.55,
+          width: DSSize.sMinInteractiveDimension * 0.55,
           child: AspectRatio(aspectRatio: 1, child: CircularProgressIndicator(color: DSColors.info, strokeWidth: 3)),
         );
       case LoaderButtonState.success:
@@ -109,18 +110,18 @@ class _DSWLoaderButtonState extends State<DSWLoaderButton> {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 160),
           curve: Curves.easeInOut,
-          height: kMinInteractiveDimension,
-          width: _state == LoaderButtonState.idle ? constraints.maxWidth : kMinInteractiveDimension,
+          height: DSSize.sMinInteractiveDimension,
+          width: _state == LoaderButtonState.idle ? constraints.maxWidth : DSSize.sMinInteractiveDimension,
           clipBehavior: Clip.antiAlias,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(kMinInteractiveDimension * 0.5),
+            borderRadius: BorderRadius.circular(DSSize.sMinInteractiveDimension * 0.5),
             color: getBackgroundColor(context),
           ),
 
           // onEnd: onEnd,
           child: Material(
             color: Colors.transparent,
-            borderRadius: BorderRadius.circular(kMinInteractiveDimension * 0.5),
+            borderRadius: BorderRadius.circular(DSSize.sMinInteractiveDimension * 0.5),
             clipBehavior: Clip.antiAlias,
             child: InkWell(
               onTap: onPressed,

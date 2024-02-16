@@ -42,14 +42,14 @@ class DSWButtonOutlined extends StatelessWidget {
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
         foregroundColor: Theme.of(context).colorScheme.primary,
-        side: BorderSide(color: Theme.of(context).colorScheme.primary, width: 1),
+        side: BorderSide(color: Theme.of(context).colorScheme.primary),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -66,14 +66,14 @@ class _SecondaryDSWButtonOutlined extends DSWButtonOutlined {
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
         foregroundColor: Theme.of(context).colorScheme.secondary,
-        side: BorderSide(color: Theme.of(context).colorScheme.secondary, width: 1),
+        side: BorderSide(color: Theme.of(context).colorScheme.secondary),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -90,14 +90,14 @@ class _InfoDSWButtonOutlined extends DSWButtonOutlined {
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
         foregroundColor: DSColors.info,
-        side: const BorderSide(color: DSColors.info, width: 1),
+        side: const BorderSide(color: DSColors.info),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -114,14 +114,14 @@ class _ErrorDSWButtonOutlined extends DSWButtonOutlined {
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
         foregroundColor: DSColors.error,
-        side: const BorderSide(color: DSColors.error, width: 1),
+        side: const BorderSide(color: DSColors.error),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -138,14 +138,14 @@ class _SuccessDSWButtonOutlined extends DSWButtonOutlined {
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
         foregroundColor: DSColors.success,
-        side: const BorderSide(color: DSColors.success, width: 1),
+        side: const BorderSide(color: DSColors.success),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,
@@ -162,14 +162,14 @@ class _WarningDSWButtonOutlined extends DSWButtonOutlined {
       onPressed: onPressed,
       style: OutlinedButton.styleFrom(
         foregroundColor: DSColors.warning,
-        side: const BorderSide(color: DSColors.warning, width: 1),
+        side: const BorderSide(color: DSColors.warning),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.radius04),
+          borderRadius: BorderRadius.circular(DSSize.r04),
         ),
         padding: const EdgeInsets.symmetric(
-          vertical: DSSize.height04,
-          horizontal: DSSize.height10,
+          vertical: DSSize.h04,
+          horizontal: DSSize.w10,
         ),
       ),
       child: child,

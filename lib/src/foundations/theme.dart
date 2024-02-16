@@ -34,11 +34,11 @@ class MaterialTheme {
         scaffoldBackgroundColor: colorScheme.background,
         canvasColor: colorScheme.surface,
         inputDecorationTheme: InputDecorationTheme(
-          border: OutlineInputBorder(borderRadius: BorderRadius.circular(DSSize.radius03)),
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(DSSize.r03)),
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(
-            horizontal: DSSize.width08,
-            vertical: DSSize.height04,
+            horizontal: DSSize.w08,
+            vertical: DSSize.h04,
           ),
         ),
         popupMenuTheme: PopupMenuThemeData(
