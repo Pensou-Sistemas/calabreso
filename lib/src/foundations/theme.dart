@@ -37,7 +37,7 @@ class MaterialTheme {
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(DSSize.r03)),
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(
-            horizontal: DSSize.w08,
+            horizontal: DSSize.w04,
             vertical: DSSize.h02,
           ),
         ),
@@ -47,79 +47,113 @@ class MaterialTheme {
         ),
       );
 
-  List<ExtendedColor> get extendedColors => [];
+  Color errorColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.error : darkScheme.error;
+  }
+
+  Color successColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.success : darkScheme.success;
+  }
+
+  Color warningColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.warning : darkScheme.warning;
+  }
+
+  Color infoColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.info : darkScheme.info;
+  }
+
+  Color onErrorColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.onError : darkScheme.onError;
+  }
+
+  Color onSuccessColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.onSuccess : darkScheme.onSuccess;
+  }
+
+  Color onWarningColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.onWarning : darkScheme.onWarning;
+  }
+
+  Color onInfoColor(Brightness brightness) {
+    return brightness == Brightness.light ? lightScheme.onInfo : darkScheme.onInfo;
+  }
 }
 
 class MaterialScheme {
   const MaterialScheme({
     required this.brightness,
     required this.primary,
-    required this.surfaceTint,
     required this.onPrimary,
-    required this.primaryContainer,
-    required this.onPrimaryContainer,
+    this.primaryContainer,
+    this.onPrimaryContainer,
     required this.secondary,
     required this.onSecondary,
-    required this.secondaryContainer,
-    required this.onSecondaryContainer,
-    required this.tertiary,
-    required this.onTertiary,
-    required this.tertiaryContainer,
-    required this.onTertiaryContainer,
+    this.secondaryContainer,
+    this.onSecondaryContainer,
+    this.tertiary,
+    this.onTertiary,
+    this.tertiaryContainer,
+    this.onTertiaryContainer,
     required this.error,
     required this.onError,
-    required this.errorContainer,
-    required this.onErrorContainer,
+    required this.warning,
+    required this.onWarning,
+    required this.success,
+    required this.onSuccess,
+    required this.info,
+    required this.onInfo,
     required this.background,
     required this.onBackground,
     required this.surface,
     required this.onSurface,
-    required this.surfaceVariant,
-    required this.onSurfaceVariant,
+    this.surfaceVariant,
+    this.onSurfaceVariant,
+    this.surfaceTint,
     required this.outline,
-    required this.outlineVariant,
-    required this.shadow,
-    required this.scrim,
-    required this.inverseSurface,
-    required this.inverseOnSurface,
-    required this.inversePrimary,
-    required this.surfaceBright,
-    required this.surfaceContainer,
+    this.outlineVariant,
+    this.shadow,
+    this.scrim,
+    this.inverseSurface,
+    this.inverseOnSurface,
+    this.inversePrimary,
   });
 
   final Brightness brightness;
   final Color primary;
-  final Color surfaceTint;
   final Color onPrimary;
-  final Color primaryContainer;
-  final Color onPrimaryContainer;
+  final Color? primaryContainer;
+  final Color? onPrimaryContainer;
   final Color secondary;
   final Color onSecondary;
-  final Color secondaryContainer;
-  final Color onSecondaryContainer;
-  final Color tertiary;
-  final Color onTertiary;
-  final Color tertiaryContainer;
-  final Color onTertiaryContainer;
+  final Color? secondaryContainer;
+  final Color? onSecondaryContainer;
+  final Color? tertiary;
+  final Color? onTertiary;
+  final Color? tertiaryContainer;
+  final Color? onTertiaryContainer;
   final Color error;
   final Color onError;
-  final Color errorContainer;
-  final Color onErrorContainer;
+  final Color warning;
+  final Color onWarning;
+  final Color success;
+  final Color onSuccess;
+  final Color info;
+  final Color onInfo;
   final Color background;
   final Color onBackground;
   final Color surface;
   final Color onSurface;
-  final Color surfaceVariant;
-  final Color onSurfaceVariant;
+  final Color? surfaceVariant;
+  final Color? onSurfaceVariant;
+  final Color? surfaceTint;
   final Color outline;
-  final Color outlineVariant;
-  final Color shadow;
-  final Color scrim;
-  final Color inverseSurface;
-  final Color inverseOnSurface;
-  final Color inversePrimary;
-  final Color surfaceBright;
-  final Color surfaceContainer;
+  final Color? outlineVariant;
+  final Color? shadow;
+  final Color? scrim;
+  final Color? inverseSurface;
+  final Color? inverseOnSurface;
+  final Color? inversePrimary;
 }
 
 extension MaterialSchemeUtils on MaterialScheme {
@@ -140,8 +174,6 @@ extension MaterialSchemeUtils on MaterialScheme {
       onTertiaryContainer: onTertiaryContainer,
       error: error,
       onError: onError,
-      errorContainer: errorContainer,
-      onErrorContainer: onErrorContainer,
       background: background,
       onBackground: onBackground,
       surface: surface,
@@ -158,31 +190,4 @@ extension MaterialSchemeUtils on MaterialScheme {
       surfaceTint: surfaceTint,
     );
   }
-}
-
-class ExtendedColor {
-  final Color seed, value;
-  final ColorFamily light;
-  final ColorFamily dark;
-
-  const ExtendedColor({
-    required this.seed,
-    required this.value,
-    required this.light,
-    required this.dark,
-  });
-}
-
-class ColorFamily {
-  const ColorFamily({
-    required this.color,
-    required this.onColor,
-    required this.colorContainer,
-    required this.onColorContainer,
-  });
-
-  final Color color;
-  final Color onColor;
-  final Color colorContainer;
-  final Color onColorContainer;
 }
