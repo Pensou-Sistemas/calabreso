@@ -38,7 +38,7 @@ class MaterialTheme {
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(
             horizontal: DSSize.w08,
-            vertical: DSSize.h04,
+            vertical: DSSize.h02,
           ),
         ),
         popupMenuTheme: PopupMenuThemeData(

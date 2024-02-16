@@ -20,7 +20,7 @@ class DSWTextField extends StatelessWidget {
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(
             horizontal: DSSize.w04,
-            vertical: DSSize.h03,
+            vertical: DSSize.h02,
           ),
         ),
       ),

@@ -50,7 +50,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
         onCheckboxChanged(!_value);
       },
       child: Padding(
-        padding: const EdgeInsets.only(right: DSSize.w04),
+        padding: const EdgeInsets.only(right: DSSize.w02),
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -68,7 +68,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
                 size: DSSize.sIconMin,
               ),
             ),
-            const SizedBox(width: DSSize.w04),
+            const SizedBox(width: DSSize.w02),
             Text(
               widget.text,
               style: DSTypography.textBody1,

@@ -26,7 +26,7 @@ class DSWCard extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.all(DSSize.w12),
+          padding: const EdgeInsets.all(DSSize.w06),
           child: child,
         ),
       ),
