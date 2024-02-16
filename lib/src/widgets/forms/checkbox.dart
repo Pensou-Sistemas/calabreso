@@ -49,32 +49,29 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
       onTap: () {
         onCheckboxChanged(!_value);
       },
-      child: Padding(
-        padding: const EdgeInsets.only(right: DSSize.w02),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            AnimatedContainer(
-              duration: const Duration(milliseconds: 200),
-              padding: const EdgeInsets.all(DSSize.w02),
-              decoration: BoxDecoration(
-                color: _value ? Theme.of(context).colorScheme.primary : Colors.transparent,
-                border: Border.all(color: _value ? Colors.transparent : Theme.of(context).colorScheme.outline),
-                borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-              ),
-              child: const Icon(
-                DSIcons.check,
-                color: Colors.white,
-                size: DSSize.sIconMin,
-              ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 200),
+            padding: const EdgeInsets.all(DSSize.w01),
+            decoration: BoxDecoration(
+              color: _value ? Theme.of(context).colorScheme.primary : Colors.transparent,
+              border: Border.all(color: _value ? Colors.transparent : Theme.of(context).colorScheme.outline),
+              borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
             ),
-            const SizedBox(width: DSSize.w02),
-            Text(
-              widget.text,
-              style: DSTypography.textBody1,
+            child: Icon(
+              DSIcons.check,
+              color: _value ? Theme.of(context).colorScheme.onPrimary : Colors.transparent,
+              size: DSSize.sIconMin,
             ),
-          ],
-        ),
+          ),
+          const SizedBox(width: DSSize.w02),
+          Text(
+            widget.text,
+            style: DSTypography.textBody1,
+          ),
+        ],
       ),
     );
   }
