@@ -58,7 +58,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
             decoration: BoxDecoration(
               color: _value ? Theme.of(context).colorScheme.primary : Colors.transparent,
               border: Border.all(color: _value ? Colors.transparent : Theme.of(context).colorScheme.outline),
-              borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+              borderRadius: const BorderRadius.all(Radius.circular(DSSize.r02)),
             ),
             child: Icon(
               DSIcons.check,

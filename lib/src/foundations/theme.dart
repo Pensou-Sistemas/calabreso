@@ -32,18 +32,35 @@ class MaterialTheme {
           displayColor: colorScheme.onSurface,
         ),
         scaffoldBackgroundColor: colorScheme.background,
+        dialogBackgroundColor: colorScheme.surface,
         canvasColor: colorScheme.surface,
+        iconTheme: IconThemeData(color: colorScheme.onSurface),
         inputDecorationTheme: InputDecorationTheme(
-          border: OutlineInputBorder(borderRadius: BorderRadius.circular(DSSize.r03)),
           hintStyle: DSTypography.textBody1,
-          contentPadding: const EdgeInsets.symmetric(
-            horizontal: DSSize.w04,
-            vertical: DSSize.h02,
+          contentPadding: const EdgeInsets.symmetric(horizontal: DSSize.w04, vertical: DSSize.h02),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: colorScheme.outline),
+          ),
+          disabledBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: colorScheme.outline.withOpacity(0.7)),
+          ),
+          errorBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: colorScheme.error),
+          ),
+          focusedErrorBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: colorScheme.error),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: colorScheme.primary),
           ),
         ),
         popupMenuTheme: PopupMenuThemeData(
-          // color: colorScheme.surface,
-          surfaceTintColor: colorScheme.surface,
+          surfaceTintColor: colorScheme.surfaceTint,
         ),
       );
 
