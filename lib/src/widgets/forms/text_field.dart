@@ -19,8 +19,8 @@ class DSWTextField extends StatelessWidget {
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(DSSize.r03)),
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(
-            horizontal: DSSize.w08,
-            vertical: DSSize.h04,
+            horizontal: DSSize.w04,
+            vertical: DSSize.h03,
           ),
         ),
       ),

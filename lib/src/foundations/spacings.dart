@@ -33,5 +33,7 @@ abstract class DSSize {
   static const double r06 = 12.0;
   static const double rMax = 100;
 
+  static const double sIconMin = 16.0;
+  static const double sIconMedium = 20.0;
   static const double sMinInteractiveDimension = 48.0;
 }

@@ -65,7 +65,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
               child: const Icon(
                 DSIcons.check,
                 color: Colors.white,
-                size: DSSize.w06,
+                size: DSSize.sIconMin,
               ),
             ),
             const SizedBox(width: DSSize.w04),
