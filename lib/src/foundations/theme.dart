@@ -35,10 +35,9 @@ class MaterialTheme {
         dialogBackgroundColor: colorScheme.surface,
         canvasColor: colorScheme.surface,
         iconTheme: IconThemeData(color: colorScheme.onSurface),
+        dividerColor: colorScheme.outline,
         dividerTheme: DividerThemeData(color: colorScheme.outline),
-        appBarTheme: AppBarTheme(
-          backgroundColor: colorScheme.background,
-        ),
+        appBarTheme: AppBarTheme(backgroundColor: colorScheme.background),
         inputDecorationTheme: InputDecorationTheme(
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(horizontal: DSSize.w04, vertical: DSSize.h02),
