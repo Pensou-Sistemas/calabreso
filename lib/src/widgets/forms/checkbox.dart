@@ -66,7 +66,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
               size: DSSize.sIconMin,
             ),
           ),
-          const SizedBox(width: DSSize.w02),
+          const SizedBox(width: DSSize.r01),
           Text(
             widget.text,
             style: DSTypography.textBody1,
