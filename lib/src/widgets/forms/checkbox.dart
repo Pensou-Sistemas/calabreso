@@ -54,7 +54,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
         children: [
           AnimatedContainer(
             duration: const Duration(milliseconds: 200),
-            padding: const EdgeInsets.all(DSSize.w01),
+            padding: const EdgeInsets.all(DSSize.r01),
             decoration: BoxDecoration(
               color: _value ? Theme.of(context).colorScheme.primary : Colors.transparent,
               border: Border.all(color: _value ? Colors.transparent : Theme.of(context).colorScheme.outline),
@@ -66,7 +66,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
               size: DSSize.sIconMin,
             ),
           ),
-          const SizedBox(width: DSSize.r01),
+          const SizedBox(width: DSSize.w02),
           Text(
             widget.text,
             style: DSTypography.textBody1,
