@@ -35,6 +35,10 @@ class MaterialTheme {
         dialogBackgroundColor: colorScheme.surface,
         canvasColor: colorScheme.surface,
         iconTheme: IconThemeData(color: colorScheme.onSurface),
+        dividerTheme: DividerThemeData(color: colorScheme.outline),
+        appBarTheme: AppBarTheme(
+          backgroundColor: colorScheme.background,
+        ),
         inputDecorationTheme: InputDecorationTheme(
           hintStyle: DSTypography.textBody1,
           contentPadding: const EdgeInsets.symmetric(horizontal: DSSize.w04, vertical: DSSize.h02),
@@ -44,7 +48,7 @@ class MaterialTheme {
           ),
           disabledBorder: OutlineInputBorder(
             borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-            borderSide: BorderSide(color: colorScheme.outline.withOpacity(0.7)),
+            borderSide: BorderSide(color: colorScheme.outline.withOpacity(0.5)),
           ),
           errorBorder: OutlineInputBorder(
             borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
