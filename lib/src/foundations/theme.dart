@@ -28,7 +28,6 @@ class MaterialTheme {
         colorScheme: colorScheme,
         fontFamily: fontFamily,
         textTheme: textTheme.apply(
-          fontFamily: fontFamily,
           bodyColor: colorScheme.onSurface,
           displayColor: colorScheme.onSurface,
         ),
