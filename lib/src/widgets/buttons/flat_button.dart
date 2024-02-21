@@ -45,7 +45,7 @@ class DSWButtonFlat extends StatelessWidget {
         foregroundColor: Theme.of(context).colorScheme.onPrimary,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -69,7 +69,7 @@ class _SecondaryDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: Theme.of(context).colorScheme.onSecondary,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -117,7 +117,7 @@ class _ErrorDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: DSColors.onError,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -141,7 +141,7 @@ class _SuccessDSWButtonFlat extends DSWButtonFlat {
         foregroundColor: DSColors.onSuccess,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,

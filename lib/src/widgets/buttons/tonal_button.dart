@@ -45,7 +45,7 @@ class DSWButtonTonal extends StatelessWidget {
         foregroundColor: Theme.of(context).colorScheme.primary,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -69,7 +69,7 @@ class _SecondaryDSWButtonTonal extends DSWButtonTonal {
         foregroundColor: Theme.of(context).colorScheme.secondary,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -93,7 +93,7 @@ class _InfoDSWButtonTonal extends DSWButtonTonal {
         foregroundColor: DSColors.info,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -117,7 +117,7 @@ class _ErrorDSWButtonTonal extends DSWButtonTonal {
         foregroundColor: DSColors.error,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -141,7 +141,7 @@ class _SuccessDSWButtonTonal extends DSWButtonTonal {
         foregroundColor: DSColors.success,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -165,7 +165,7 @@ class _WarningDSWButtonTonal extends DSWButtonTonal {
         foregroundColor: DSColors.warning,
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,

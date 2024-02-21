@@ -45,7 +45,7 @@ class DSWButtonOutlined extends StatelessWidget {
         side: BorderSide(color: Theme.of(context).colorScheme.primary),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -69,7 +69,7 @@ class _SecondaryDSWButtonOutlined extends DSWButtonOutlined {
         side: BorderSide(color: Theme.of(context).colorScheme.secondary),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -93,7 +93,7 @@ class _InfoDSWButtonOutlined extends DSWButtonOutlined {
         side: const BorderSide(color: DSColors.info),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -117,7 +117,7 @@ class _ErrorDSWButtonOutlined extends DSWButtonOutlined {
         side: const BorderSide(color: DSColors.error),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -141,7 +141,7 @@ class _SuccessDSWButtonOutlined extends DSWButtonOutlined {
         side: const BorderSide(color: DSColors.success),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,
@@ -165,7 +165,7 @@ class _WarningDSWButtonOutlined extends DSWButtonOutlined {
         side: const BorderSide(color: DSColors.warning),
         textStyle: DSTypography.textButton,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(DSSize.r04),
+          borderRadius: BorderRadius.circular(DSSize.r03),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: DSSize.h02,

@@ -16,11 +16,27 @@ class DSWTextField extends StatelessWidget {
     return Theme(
       data: Theme.of(context).copyWith(
         inputDecorationTheme: InputDecorationTheme(
-          border: OutlineInputBorder(borderRadius: BorderRadius.circular(DSSize.r03)),
           hintStyle: DSTypography.textBody1,
-          contentPadding: const EdgeInsets.symmetric(
-            horizontal: DSSize.w04,
-            vertical: DSSize.h02,
+          contentPadding: const EdgeInsets.symmetric(horizontal: DSSize.w04, vertical: DSSize.h02),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: Theme.of(context).colorScheme.outline),
+          ),
+          disabledBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: Theme.of(context).colorScheme.outline.withOpacity(0.5)),
+          ),
+          errorBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: Theme.of(context).colorScheme.error),
+          ),
+          focusedErrorBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: Theme.of(context).colorScheme.error),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
+            borderSide: BorderSide(color: Theme.of(context).colorScheme.primary),
           ),
         ),
       ),

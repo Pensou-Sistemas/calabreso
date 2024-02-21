@@ -38,30 +38,6 @@ class MaterialTheme {
         dividerColor: colorScheme.outline,
         dividerTheme: DividerThemeData(color: colorScheme.outline),
         appBarTheme: AppBarTheme(backgroundColor: colorScheme.background),
-        inputDecorationTheme: InputDecorationTheme(
-          hintStyle: DSTypography.textBody1,
-          contentPadding: const EdgeInsets.symmetric(horizontal: DSSize.w04, vertical: DSSize.h02),
-          enabledBorder: OutlineInputBorder(
-            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-            borderSide: BorderSide(color: colorScheme.outline),
-          ),
-          disabledBorder: OutlineInputBorder(
-            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-            borderSide: BorderSide(color: colorScheme.outline.withOpacity(0.5)),
-          ),
-          errorBorder: OutlineInputBorder(
-            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-            borderSide: BorderSide(color: colorScheme.error),
-          ),
-          focusedErrorBorder: OutlineInputBorder(
-            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-            borderSide: BorderSide(color: colorScheme.error),
-          ),
-          focusedBorder: OutlineInputBorder(
-            borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),
-            borderSide: BorderSide(color: colorScheme.primary),
-          ),
-        ),
         popupMenuTheme: PopupMenuThemeData(
           surfaceTintColor: colorScheme.surfaceTint,
         ),
