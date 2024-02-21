@@ -4,35 +4,35 @@ import 'package:flutter/material.dart';
 class DSWButtonRounded extends StatelessWidget {
   const DSWButtonRounded({
     super.key,
-    required this.onPressed,
+    this.onPressed,
     required this.child,
   });
 
-  final void Function() onPressed;
+  final void Function()? onPressed;
   final Widget child;
 
   const factory DSWButtonRounded.secondary({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SecondaryDSWButtonRounded;
 
   const factory DSWButtonRounded.info({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _InfoDSWButtonRounded;
 
   const factory DSWButtonRounded.error({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _ErrorDSWButtonRounded;
 
   const factory DSWButtonRounded.success({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SuccessDSWButtonRounded;
 
   const factory DSWButtonRounded.warning({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _WarningDSWButtonRounded;
 
@@ -58,7 +58,7 @@ class DSWButtonRounded extends StatelessWidget {
 }
 
 class _SecondaryDSWButtonRounded extends DSWButtonRounded {
-  const _SecondaryDSWButtonRounded({required super.onPressed, required super.child});
+  const _SecondaryDSWButtonRounded({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class _SecondaryDSWButtonRounded extends DSWButtonRounded {
 }
 
 class _InfoDSWButtonRounded extends DSWButtonRounded {
-  const _InfoDSWButtonRounded({required super.onPressed, required super.child});
+  const _InfoDSWButtonRounded({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -106,7 +106,7 @@ class _InfoDSWButtonRounded extends DSWButtonRounded {
 }
 
 class _ErrorDSWButtonRounded extends DSWButtonRounded {
-  const _ErrorDSWButtonRounded({required super.onPressed, required super.child});
+  const _ErrorDSWButtonRounded({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +130,7 @@ class _ErrorDSWButtonRounded extends DSWButtonRounded {
 }
 
 class _SuccessDSWButtonRounded extends DSWButtonRounded {
-  const _SuccessDSWButtonRounded({required super.onPressed, required super.child});
+  const _SuccessDSWButtonRounded({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -154,7 +154,7 @@ class _SuccessDSWButtonRounded extends DSWButtonRounded {
 }
 
 class _WarningDSWButtonRounded extends DSWButtonRounded {
-  const _WarningDSWButtonRounded({required super.onPressed, required super.child});
+  const _WarningDSWButtonRounded({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {

@@ -4,35 +4,35 @@ import 'package:flutter/material.dart';
 class DSWButtonOutlined extends StatelessWidget {
   const DSWButtonOutlined({
     super.key,
-    required this.onPressed,
+    this.onPressed,
     required this.child,
   });
 
-  final void Function() onPressed;
+  final void Function()? onPressed;
   final Widget child;
 
   const factory DSWButtonOutlined.secondary({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SecondaryDSWButtonOutlined;
 
   const factory DSWButtonOutlined.info({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _InfoDSWButtonOutlined;
 
   const factory DSWButtonOutlined.error({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _ErrorDSWButtonOutlined;
 
   const factory DSWButtonOutlined.success({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SuccessDSWButtonOutlined;
 
   const factory DSWButtonOutlined.warning({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _WarningDSWButtonOutlined;
 
@@ -58,7 +58,7 @@ class DSWButtonOutlined extends StatelessWidget {
 }
 
 class _SecondaryDSWButtonOutlined extends DSWButtonOutlined {
-  const _SecondaryDSWButtonOutlined({required super.onPressed, required super.child});
+  const _SecondaryDSWButtonOutlined({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class _SecondaryDSWButtonOutlined extends DSWButtonOutlined {
 }
 
 class _InfoDSWButtonOutlined extends DSWButtonOutlined {
-  const _InfoDSWButtonOutlined({required super.onPressed, required super.child});
+  const _InfoDSWButtonOutlined({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -106,7 +106,7 @@ class _InfoDSWButtonOutlined extends DSWButtonOutlined {
 }
 
 class _ErrorDSWButtonOutlined extends DSWButtonOutlined {
-  const _ErrorDSWButtonOutlined({required super.onPressed, required super.child});
+  const _ErrorDSWButtonOutlined({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +130,7 @@ class _ErrorDSWButtonOutlined extends DSWButtonOutlined {
 }
 
 class _SuccessDSWButtonOutlined extends DSWButtonOutlined {
-  const _SuccessDSWButtonOutlined({required super.onPressed, required super.child});
+  const _SuccessDSWButtonOutlined({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -154,7 +154,7 @@ class _SuccessDSWButtonOutlined extends DSWButtonOutlined {
 }
 
 class _WarningDSWButtonOutlined extends DSWButtonOutlined {
-  const _WarningDSWButtonOutlined({required super.onPressed, required super.child});
+  const _WarningDSWButtonOutlined({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {

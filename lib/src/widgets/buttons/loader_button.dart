@@ -12,7 +12,7 @@ enum LoaderButtonState {
 class DSWLoaderButton extends StatefulWidget {
   const DSWLoaderButton({
     super.key,
-    required this.onPressed,
+    this.onPressed,
     this.onSuccessEnd,
     required this.state,
     required this.text,

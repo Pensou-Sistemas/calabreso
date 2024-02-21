@@ -4,35 +4,35 @@ import 'package:flutter/material.dart';
 class DSWButtonTonal extends StatelessWidget {
   const DSWButtonTonal({
     super.key,
-    required this.onPressed,
+    this.onPressed,
     required this.child,
   });
 
-  final void Function() onPressed;
+  final void Function()? onPressed;
   final Widget child;
 
   const factory DSWButtonTonal.secondary({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SecondaryDSWButtonTonal;
 
   const factory DSWButtonTonal.info({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _InfoDSWButtonTonal;
 
   const factory DSWButtonTonal.error({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _ErrorDSWButtonTonal;
 
   const factory DSWButtonTonal.success({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SuccessDSWButtonTonal;
 
   const factory DSWButtonTonal.warning({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _WarningDSWButtonTonal;
 
@@ -58,7 +58,7 @@ class DSWButtonTonal extends StatelessWidget {
 }
 
 class _SecondaryDSWButtonTonal extends DSWButtonTonal {
-  const _SecondaryDSWButtonTonal({required super.onPressed, required super.child});
+  const _SecondaryDSWButtonTonal({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class _SecondaryDSWButtonTonal extends DSWButtonTonal {
 }
 
 class _InfoDSWButtonTonal extends DSWButtonTonal {
-  const _InfoDSWButtonTonal({required super.onPressed, required super.child});
+  const _InfoDSWButtonTonal({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -106,7 +106,7 @@ class _InfoDSWButtonTonal extends DSWButtonTonal {
 }
 
 class _ErrorDSWButtonTonal extends DSWButtonTonal {
-  const _ErrorDSWButtonTonal({required super.onPressed, required super.child});
+  const _ErrorDSWButtonTonal({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +130,7 @@ class _ErrorDSWButtonTonal extends DSWButtonTonal {
 }
 
 class _SuccessDSWButtonTonal extends DSWButtonTonal {
-  const _SuccessDSWButtonTonal({required super.onPressed, required super.child});
+  const _SuccessDSWButtonTonal({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -154,7 +154,7 @@ class _SuccessDSWButtonTonal extends DSWButtonTonal {
 }
 
 class _WarningDSWButtonTonal extends DSWButtonTonal {
-  const _WarningDSWButtonTonal({required super.onPressed, required super.child});
+  const _WarningDSWButtonTonal({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
