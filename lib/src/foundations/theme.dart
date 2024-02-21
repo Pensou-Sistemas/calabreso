@@ -26,6 +26,7 @@ class MaterialTheme {
         useMaterial3: true,
         brightness: colorScheme.brightness,
         colorScheme: colorScheme,
+        fontFamily: fontFamily,
         textTheme: textTheme.apply(
           fontFamily: fontFamily,
           bodyColor: colorScheme.onSurface,
