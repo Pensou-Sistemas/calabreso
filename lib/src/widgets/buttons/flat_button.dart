@@ -4,35 +4,35 @@ import 'package:flutter/material.dart';
 class DSWButtonFlat extends StatelessWidget {
   const DSWButtonFlat({
     super.key,
-    required this.onPressed,
+    this.onPressed,
     required this.child,
   });
 
-  final void Function() onPressed;
+  final void Function()? onPressed;
   final Widget child;
 
   const factory DSWButtonFlat.secondary({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SecondaryDSWButtonFlat;
 
   const factory DSWButtonFlat.info({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _InfoDSWButtonFlat;
 
   const factory DSWButtonFlat.error({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _ErrorDSWButtonFlat;
 
   const factory DSWButtonFlat.success({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _SuccessDSWButtonFlat;
 
   const factory DSWButtonFlat.warning({
-    required void Function() onPressed,
+    void Function()? onPressed,
     required Widget child,
   }) = _WarningDSWButtonFlat;
 
@@ -58,7 +58,7 @@ class DSWButtonFlat extends StatelessWidget {
 }
 
 class _SecondaryDSWButtonFlat extends DSWButtonFlat {
-  const _SecondaryDSWButtonFlat({required super.onPressed, required super.child});
+  const _SecondaryDSWButtonFlat({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class _SecondaryDSWButtonFlat extends DSWButtonFlat {
 }
 
 class _InfoDSWButtonFlat extends DSWButtonFlat {
-  const _InfoDSWButtonFlat({required super.onPressed, required super.child});
+  const _InfoDSWButtonFlat({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -106,7 +106,7 @@ class _InfoDSWButtonFlat extends DSWButtonFlat {
 }
 
 class _ErrorDSWButtonFlat extends DSWButtonFlat {
-  const _ErrorDSWButtonFlat({required super.onPressed, required super.child});
+  const _ErrorDSWButtonFlat({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +130,7 @@ class _ErrorDSWButtonFlat extends DSWButtonFlat {
 }
 
 class _SuccessDSWButtonFlat extends DSWButtonFlat {
-  const _SuccessDSWButtonFlat({required super.onPressed, required super.child});
+  const _SuccessDSWButtonFlat({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
@@ -154,7 +154,7 @@ class _SuccessDSWButtonFlat extends DSWButtonFlat {
 }
 
 class _WarningDSWButtonFlat extends DSWButtonFlat {
-  const _WarningDSWButtonFlat({required super.onPressed, required super.child});
+  const _WarningDSWButtonFlat({super.onPressed, required super.child});
 
   @override
   Widget build(BuildContext context) {
