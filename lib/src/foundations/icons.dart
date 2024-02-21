@@ -13,8 +13,6 @@
 ///
 ///
 ///
-// ignore_for_file: constant_identifier_names
-
 import 'package:flutter/widgets.dart';
 
 class DSIcons {
@@ -41,4 +39,5 @@ class DSIcons {
   static const IconData wifi_off = IconData(0xe80f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData wifi = IconData(0xe810, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData check = IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData photo = IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
