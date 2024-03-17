@@ -16,7 +16,7 @@ class DSWTextField extends StatelessWidget {
     return Theme(
       data: Theme.of(context).copyWith(
         inputDecorationTheme: InputDecorationTheme(
-          hintStyle: DSTypography.textBody1,
+          hintStyle: DSTypography.bodyMedium,
           contentPadding: const EdgeInsets.symmetric(horizontal: DSSize.w04, vertical: DSSize.h02),
           enabledBorder: OutlineInputBorder(
             borderRadius: const BorderRadius.all(Radius.circular(DSSize.r03)),

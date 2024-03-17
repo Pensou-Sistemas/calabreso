@@ -69,7 +69,7 @@ class _DSWCheckboxState extends State<DSWCheckbox> {
           const SizedBox(width: DSSize.w02),
           Text(
             widget.text,
-            style: DSTypography.textBody1,
+            style: DSTypography.bodyMedium,
           ),
         ],
       ),
