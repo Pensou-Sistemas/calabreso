@@ -61,7 +61,7 @@ abstract class DSTypography {
       );
 
   static TextStyle get textButton => const TextStyle(
-        fontSize: 15,
+        fontSize: 14,
         fontWeight: FontWeight.w500,
       );
 }
