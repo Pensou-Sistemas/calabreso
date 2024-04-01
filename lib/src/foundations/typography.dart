@@ -1,67 +1,68 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 abstract class DSTypography {
-  static TextStyle get headlineLarge => const TextStyle(
-        fontSize: 32,
+  static TextStyle get headlineLarge => TextStyle(
+        fontSize: 32.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get headlineMedium => const TextStyle(
-        fontSize: 28,
+  static TextStyle get headlineMedium => TextStyle(
+        fontSize: 28.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get headlineSmall => const TextStyle(
-        fontSize: 24,
+  static TextStyle get headlineSmall => TextStyle(
+        fontSize: 24.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get titleLarge => const TextStyle(
-        fontSize: 20,
+  static TextStyle get titleLarge => TextStyle(
+        fontSize: 20.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get titleMedium => const TextStyle(
-        fontSize: 18,
+  static TextStyle get titleMedium => TextStyle(
+        fontSize: 18.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get titleSmall => const TextStyle(
-        fontSize: 16,
+  static TextStyle get titleSmall => TextStyle(
+        fontSize: 16.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get bodyLarge => const TextStyle(
-        fontSize: 16,
+  static TextStyle get bodyLarge => TextStyle(
+        fontSize: 16.sp,
         fontWeight: FontWeight.w500,
       );
 
-  static TextStyle get bodyMedium => const TextStyle(
-        fontSize: 14,
+  static TextStyle get bodyMedium => TextStyle(
+        fontSize: 14.sp,
         fontWeight: FontWeight.w500,
       );
 
-  static TextStyle get bodySmall => const TextStyle(
-        fontSize: 12,
+  static TextStyle get bodySmall => TextStyle(
+        fontSize: 12.sp,
         fontWeight: FontWeight.w500,
       );
 
-  static TextStyle get labelLarge => const TextStyle(
-        fontSize: 14,
+  static TextStyle get labelLarge => TextStyle(
+        fontSize: 14.sp,
         fontWeight: FontWeight.w600,
       );
-  static TextStyle get labelMedium => const TextStyle(
-        fontSize: 12,
-        fontWeight: FontWeight.w600,
-      );
-
-  static TextStyle get labelSmall => const TextStyle(
-        fontSize: 11,
+  static TextStyle get labelMedium => TextStyle(
+        fontSize: 12.sp,
         fontWeight: FontWeight.w600,
       );
 
-  static TextStyle get textButton => const TextStyle(
-        fontSize: 14,
+  static TextStyle get labelSmall => TextStyle(
+        fontSize: 11.sp,
+        fontWeight: FontWeight.w600,
+      );
+
+  static TextStyle get textButton => TextStyle(
+        fontSize: 14.sp,
         fontWeight: FontWeight.w500,
       );
 }
