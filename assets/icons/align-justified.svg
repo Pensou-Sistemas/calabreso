@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     clip-path="url(#clip0_17855_34788)"
+     id="g3">
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="M 4,5.25 A 0.75,0.75 0 0 0 3.25,6 0.75,0.75 0 0 0 4,6.75 H 20 A 0.75,0.75 0 0 0 20.75,6 0.75,0.75 0 0 0 20,5.25 Z"
+       id="path1" />
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="M 4,11.25 A 0.75,0.75 0 0 0 3.25,12 0.75,0.75 0 0 0 4,12.75 H 20 A 0.75,0.75 0 0 0 20.75,12 0.75,0.75 0 0 0 20,11.25 Z"
+       id="path2" />
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="M 4,17.25 A 0.75,0.75 0 0 0 3.25,18 0.75,0.75 0 0 0 4,18.75 H 16 A 0.75,0.75 0 0 0 16.75,18 0.75,0.75 0 0 0 16,17.25 Z"
+       id="path3" />
+  </g>
+  <defs
+     id="defs3">
+    <clipPath
+       id="clip0_17855_34788">
+      <rect
+         width="24"
+         height="24"
+         fill="#ffffff"
+         id="rect3"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+</svg>
