@@ -21,7 +21,7 @@ class DSIcons {
   DSIcons._();
 
   static const _kFontFam = 'DSIcons';
-  static const String? _kFontPkg = 'calebreso';
+  static const String? _kFontPkg = 'calabreso';
 
   static const IconData address_book = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_justified = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
