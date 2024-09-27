@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="check_2px.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="11.949153"
+     inkscape:cy="12"
+     inkscape:window-width="1504"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <g
+     clip-path="url(#clip0_20120_1398)"
+     id="g1">
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="M 19.292969,6.2929687 10,15.585938 5.7070312,11.292969 a 1,1 0 0 0 -1.4140625,0 1,1 0 0 0 0,1.414062 l 5.0000001,5 a 1.0001,1.0001 0 0 0 1.4140622,0 l 10,-9.9999998 a 1,1 0 0 0 0,-1.4140625 1,1 0 0 0 -1.414062,0 z"
+       id="path1" />
+  </g>
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip0_20120_1398">
+      <rect
+         width="24"
+         height="24"
+         fill="white"
+         id="rect1" />
+    </clipPath>
+  </defs>
+</svg>

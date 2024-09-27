@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="map_2px.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="11.949153"
+     inkscape:cy="12"
+     inkscape:window-width="1504"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3" />
+  <g
+     clip-path="url(#clip0_20120_1225)"
+     id="g3">
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 8.5527344,3.1054688 -6,2.9999999 A 1.0001,1.0001 0 0 0 2,7 v 13 a 1.0001,1.0001 0 0 0 1.4472656,0.894531 L 9,18.117187 l 5.552734,2.777344 a 1.0001,1.0001 0 0 0 0.894532,0 l 6,-3 A 1.0001,1.0001 0 0 0 22,17 V 4 A 1.0001,1.0001 0 0 0 20.552734,3.1054688 L 15,5.8828125 9.4472656,3.1054688 a 1.0001,1.0001 0 0 0 -0.8945312,0 z M 9,5.1171875 14.552734,7.8945312 a 1.0001,1.0001 0 0 0 0.894532,0 L 20,5.6171875 V 16.382812 l -5,2.5 -5.5527344,-2.777343 a 1.0001,1.0001 0 0 0 -0.8945312,0 L 4,18.382812 V 7.6171875 Z"
+       id="path1" />
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="M 9,3 A 1,1 0 0 0 8,4 v 13 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 4 A 1,1 0 0 0 9,3 Z"
+       id="path2" />
+    <path
+       style="color:#000000;fill:#2c3e50;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 15,6 a 1,1 0 0 0 -1,1 v 13 a 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 V 7 A 1,1 0 0 0 15,6 Z"
+       id="path3" />
+  </g>
+  <defs
+     id="defs3">
+    <clipPath
+       id="clip0_20120_1225">
+      <rect
+         width="24"
+         height="24"
+         fill="white"
+         id="rect3" />
+    </clipPath>
+  </defs>
+</svg>
