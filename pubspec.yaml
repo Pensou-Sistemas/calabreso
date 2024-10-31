@@ -1,6 +1,6 @@
 name: calabreso
 description: "A new Flutter package project."
-version: 0.0.2
+version: 0.0.3
 homepage:
 
 environment:
@@ -19,6 +19,14 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: DSIcons
+    - family: DSIcons1px
       fonts:
-        - asset: assets/fonts/DSIcons.ttf
+        - asset: assets/fonts/DSIcons1px.ttf
+
+    - family: DSIcons2px
+      fonts:
+        - asset: assets/fonts/DSIcons2px.ttf
+
+    - family: DSIconsFilled
+      fonts:
+        - asset: assets/fonts/DSIconsFilled.ttf
